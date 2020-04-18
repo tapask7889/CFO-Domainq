@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Job_Status_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Job_Status_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Job Status</label>
+    <nameField>
+        <displayFormat>JS-{0000}</displayFormat>
+        <label>Job Status Record No.</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Job Status</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Prospect</fullName>
+                    <default>false</default>
+                    <label>Prospect</label>
+                </value>
+                <value>
+                    <fullName>Request sent to Interview Internally</fullName>
+                    <default>false</default>
+                    <label>Request sent to Interview Internally</label>
+                </value>
+                <value>
+                    <fullName>Internal Interview Scheduled</fullName>
+                    <default>false</default>
+                    <label>Internal Interview Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Qualified Candidate</fullName>
+                    <default>false</default>
+                    <label>Qualified Candidate</label>
+                </value>
+                <value>
+                    <fullName>Not Qualified</fullName>
+                    <default>false</default>
+                    <label>Not Qualified</label>
+                </value>
+                <value>
+                    <fullName>Qualified Candidate: Pending Candidate Feedback</fullName>
+                    <default>false</default>
+                    <label>Qualified Candidate: Pending Candidate Feedback</label>
+                </value>
+                <value>
+                    <fullName>Qualified Candidate :Pending Internal Review</fullName>
+                    <default>false</default>
+                    <label>Qualified Candidate :Pending Internal Review</label>
+                </value>
+                <value>
+                    <fullName>Internally Approved by Sales Manager</fullName>
+                    <default>false</default>
+                    <label>Internally Approved by Sales Manager</label>
+                </value>
+                <value>
+                    <fullName>Internally Rejected by Sales Manager</fullName>
+                    <default>false</default>
+                    <label>Internally Rejected by Sales Manager</label>
+                </value>
+                <value>
+                    <fullName>Internally on Hold by Sales Manager</fullName>
+                    <default>false</default>
+                    <label>Internally on Hold by Sales Manager</label>
+                </value>
+                <value>
+                    <fullName>Submitted to Client, Pending Client Feedback</fullName>
+                    <default>false</default>
+                    <label>Submitted to Client, Pending Client Feedback</label>
+                </value>
+                <value>
+                    <fullName>Rejected by Client</fullName>
+                    <default>false</default>
+                    <label>Rejected by Client</label>
+                </value>
+                <value>
+                    <fullName>Request sent for Client Interview</fullName>
+                    <default>false</default>
+                    <label>Request sent for Client Interview</label>
+                </value>
+                <value>
+                    <fullName>Pre-Engagement Meeting / Interview Scheduled</fullName>
+                    <default>false</default>
+                    <label>Pre-Engagement Meeting / Interview Scheduled</label>
+                </value>
+                <value>
+                    <fullName>First Interview Scheduled</fullName>
+                    <default>false</default>
+                    <label>First Interview Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Second Interview Scheduled</fullName>
+                    <default>false</default>
+                    <label>Second Interview Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Third Interview Scheduled</fullName>
+                    <default>false</default>
+                    <label>Third Interview Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Final Interview Scheduled</fullName>
+                    <default>false</default>
+                    <label>Final Interview Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Interview Completed, Pending Client Feedback</fullName>
+                    <default>false</default>
+                    <label>Interview Completed, Pending Client Feedback</label>
+                </value>
+                <value>
+                    <fullName>Rejected by Client Post-Interview</fullName>
+                    <default>false</default>
+                    <label>Rejected by Client Post-Interview</label>
+                </value>
+                <value>
+                    <fullName>Offer Received</fullName>
+                    <default>false</default>
+                    <label>Offer Received</label>
+                </value>
+                <value>
+                    <fullName>Offer Accepted :Background/Ref In Process</fullName>
+                    <default>false</default>
+                    <label>Offer Accepted :Background/Ref In Process</label>
+                </value>
+                <value>
+                    <fullName>Offer Accepted :Background/Ref Completed</fullName>
+                    <default>false</default>
+                    <label>Offer Accepted :Background/Ref Completed</label>
+                </value>
+                <value>
+                    <fullName>Offer Rejected</fullName>
+                    <default>false</default>
+                    <label>Offer Rejected</label>
+                </value>
+                <value>
+                    <fullName>Onboarding in Process</fullName>
+                    <default>false</default>
+                    <label>Onboarding in Process</label>
+                </value>
+                <value>
+                    <fullName>Onboarding Completed</fullName>
+                    <default>false</default>
+                    <label>Onboarding Completed</label>
+                </value>
+                <value>
+                    <fullName>First Pre-Engagement Meeting/Interview Re-Scheduled with Client</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>First Pre-Engagement Meeting/Interview Re-Scheduled with Client</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Interview Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Executed</fullName>
+                    <default>false</default>
+                    <label>Executed</label>
+                </value>
+                <value>
+                    <fullName>Client Rescheduled</fullName>
+                    <default>false</default>
+                    <label>Client Rescheduled</label>
+                </value>
+                <value>
+                    <fullName>Sales Rescheduled</fullName>
+                    <default>false</default>
+                    <label>Sales Rescheduled</label>
+                </value>
+                <value>
+                    <fullName>Client Didn&apos;t Pick Up / Show Up</fullName>
+                    <default>false</default>
+                    <label>Client Didn&apos;t Pick Up / Show Up</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Job_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Job Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contract</fullName>
+                    <default>false</default>
+                    <label>Contract</label>
+                </value>
+                <value>
+                    <fullName>Part Time</fullName>
+                    <default>false</default>
+                    <label>Part Time</label>
+                </value>
+                <value>
+                    <fullName>Freelance</fullName>
+                    <default>false</default>
+                    <label>Freelance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pay_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Pay Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Bill_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Bill Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Candidate__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Candidate</label>
+        <referenceTo>Candidate__c</referenceTo>
+        <relationshipLabel>Job Status</relationshipLabel>
+        <relationshipName>Job_Status</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Exemption__c</fullName>
+        <externalId>false</externalId>
+        <label>Exemption</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Non Exempt</fullName>
+                    <default>false</default>
+                    <label>Non Exempt</label>
+                </value>
+                <value>
+                    <fullName>Exempt</fullName>
+                    <default>false</default>
+                    <label>Exempt</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Role_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Role Title</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Client_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Client Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Candidate_Status1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipName>Candidate_Status</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>W_2_or_1099__c</fullName>
+        <externalId>false</externalId>
+        <label>W-2 or 1099</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>W-2</fullName>
+                    <default>false</default>
+                    <label>W-2</label>
+                </value>
+                <value>
+                    <fullName>1099</fullName>
+                    <default>false</default>
+                    <label>1099</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DT_Bill_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>DT Bill Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OT_Bill_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>OT Bill Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Terms__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Terms</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Client_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Client_Company__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Company</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Completion_Bonus__c</fullName>
+        <externalId>false</externalId>
+        <label>Completion Bonus?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/&quot;&amp;Opportunity__r.Id , Opportunity__r.Name )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Opportunity__r.Type )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Credit_Allocation__c</fullName>
+        <externalId>false</externalId>
+        <label>Credit Allocation</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Title__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/&quot;&amp;Opportunity__r.Id , Opportunity__r.Name )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimated_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Reimbursed_Expenses__c</fullName>
+        <externalId>false</externalId>
+        <label>Reimbursed Expenses?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Offer_Received_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Offer Received Notes</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Offer_Rejected_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Offer Rejected Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Client_Interview_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Interview Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Permission_to_work_OT__c</fullName>
+        <externalId>false</externalId>
+        <label>Permission to work OT?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>New_or_Existing_Client__c</fullName>
+        <externalId>false</externalId>
+        <label>New or Existing Client?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Existing Client</fullName>
+                    <default>false</default>
+                    <label>Existing Client</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Background_Check_Needed__c</fullName>
+        <externalId>false</externalId>
+        <label>Background Check Needed?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Client_Interview_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Interview Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Executed</fullName>
+                    <default>false</default>
+                    <label>Executed</label>
+                </value>
+                <value>
+                    <fullName>Client Rescheduled</fullName>
+                    <default>false</default>
+                    <label>Client Rescheduled</label>
+                </value>
+                <value>
+                    <fullName>Sales Rescheduled</fullName>
+                    <default>false</default>
+                    <label>Sales Rescheduled</label>
+                </value>
+                <value>
+                    <fullName>Client Didn&apos;t Pick Up / Show Up</fullName>
+                    <default>false</default>
+                    <label>Client Didn&apos;t Pick Up / Show Up</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Client_Interview_Subject__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Interview Subject</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Company_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/&quot;&amp;Opportunity__r.AccountId, Opportunity__r.Account.Name )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Company Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Interview_Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>Client_Interview_Start_Date_Time__c  - Client_Interview_End_Date_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Client Interview Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Interview_Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Interview Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Rejected_by_Client_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Rejected by Client Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Salary_Pay_Rate_Discussed__c</fullName>
+        <externalId>false</externalId>
+        <label>Salary/ Pay Rate Discussed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Internal_Interview_Subject__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Interview Subject</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Internal_Interview_Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>Client_Interview_Start_Date_Time__c -  Client_Interview_End_Date_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Internal Interview Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Internal_Interview_Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Interview Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Client_Interview_Assigned_to__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Client Interview Assigned to</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Job_Status1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Client_Interview_End_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Interview End Date &amp; Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Internal_Interview_Assigned_to__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Internal Interview Assigned to</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Job_Status</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Do_Clients_get_Weekly_Reporting__c</fullName>
+        <externalId>false</externalId>
+        <label>Do Clients get Weekly Reporting?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>On_Hold_by_Sales_Manager_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>On Hold by Sales Manager Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Client_Interview_Start_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Interview Start Date &amp; Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Internal_Interview_End_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Interview End Date &amp; Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Rejected_by_Sales_Manager_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Rejected by Sales Manager Reason</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Internal_Interview_Scheduled_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Interview Scheduled Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>internal_interview_even_record_id__c</fullName>
+        <description>internal interview even record id</description>
+        <externalId>false</externalId>
+        <label>internal interview even record id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Internal_Interview_Start_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Interview Start Date &amp; Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Client_Contacts_that_Receive_Invoices__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Contacts that Receive Invoices</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Client_Contacts_Receive_Invoice_Copies__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Contacts Receive Invoice Copies</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Offer_Accepted_Background_In_Completed__c</fullName>
+        <externalId>false</externalId>
+        <label>Offer Accepted Background In Completed</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Who_receives_the_weekly_reporting_temp__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Who receives the weekly reporting ?</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Candidate_Status</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Offer_Accepted_Background_Ref_In_Progres__c</fullName>
+        <externalId>false</externalId>
+        <label>Offer Accepted Background In Progress</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Rejected_by_Client_Post_Interview_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Rejected by Client Post-Interview Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <recordTypes>
+        <fullName>Candidate_Status</fullName>
+        <active>true</active>
+        <description>default</description>
+        <label>Candidate Status</label>
+        <picklistValues>
+            <picklist>Background_Check_Needed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Client_Interview_Status__c</picklist>
+            <values>
+                <fullName>Client Didn%27t Pick Up %2F Show Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Rescheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Executed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Rescheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Completion_Bonus__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Do_Clients_get_Weekly_Reporting__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Exemption__c</picklist>
+            <values>
+                <fullName>Exempt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Exempt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Job_Type__c</picklist>
+            <values>
+                <fullName>Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Freelance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Part Time</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>New_or_Existing_Client__c</picklist>
+            <values>
+                <fullName>Existing Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Permission_to_work_OT__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reimbursed_Expenses__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stage__c</picklist>
+            <values>
+                <fullName>Final Interview Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>First Interview Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Interview Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internally Approved by Sales Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internally Rejected by Sales Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internally on Hold by Sales Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interview Completed%2C Pending Client Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offer Accepted %3ABackground%2FRef Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offer Accepted %3ABackground%2FRef In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offer Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offer Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onboarding Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onboarding in Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Engagement Meeting %2F Interview Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualified Candidate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualified Candidate %3APending Internal Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualified Candidate%3A Pending Candidate Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by Client Post-Interview</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request sent for Client Interview</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request sent to Interview Internally</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Second Interview Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted to Client%2C Pending Client Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Interview Scheduled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Client Didn%27t Pick Up %2F Show Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Rescheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Executed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Rescheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>W_2_or_1099__c</picklist>
+            <values>
+                <fullName>1099</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W-2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>Internal_Interview_start_date</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( 
+( Internal_Interview_Start_Date_Time__c &gt; Internal_Interview_End_Date_Time__c  ) ,
+(Internal_Interview_Start_Date_Time__c - Internal_Interview_End_Date_Time__c &gt; 0 )
+)</errorConditionFormula>
+        <errorMessage>Internal Interview start date should be earlier than  Internal Interview end date</errorMessage>
+    </validationRules>
+</CustomObject>
